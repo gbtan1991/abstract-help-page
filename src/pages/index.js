@@ -12,4 +12,9 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => 
+<>
+<title>Abstract</title>
+<link rel="icon" href="./static/favicon.png" />
+</>
+

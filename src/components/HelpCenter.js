@@ -3,9 +3,9 @@ import React from 'react'
 
 const HelpCenter = () => {
   return (
-    <div>
+    <div className='font-theme-standard p-2 border-l-2'>
       <Link to="/index.js">
-        <p >Help Center</p>
+        <p className='text-[24px]/[23px] font-normal' >Help Center</p>
       </Link>
     </div>
   )

@@ -5,10 +5,17 @@ import HelpCenter from './HelpCenter'
 
 const Header = () => {
   return (
-    <div className='w-full h-11 bg-theme-black bg-theme'>
+    <div className='w-full h-[88px] bg-theme-black font-bold text-theme-white px-4 '>
+      <div className='flex flex-wrap justify-between'>
+      <div className='flex items-center'>
       <Logo />
       <HelpCenter />
-      <CallToAction />
+      </div>
+      <div>
+        <CallToAction />
+      </div>
+      
+      </div>
     </div>
   )
 }

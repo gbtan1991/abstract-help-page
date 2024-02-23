@@ -10,7 +10,10 @@ module.exports = {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
-      "path": "./src/images/"
+      "path": "./src/images/",
+      "icon": "/src/images/favicon.png",
+      families: ['ThemeFonts'],
+      urls: ['./src/fonts/GT-America-Standard-Regular.otf']
     },
     __key: "images"
   }]
