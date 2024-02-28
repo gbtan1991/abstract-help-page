@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Styles for the Search component */
+.search-container {
+    transition: transform 5s ease-in-out;
+  }
+  
+  .search-open {
+    transform: translateX(0%);
+  }

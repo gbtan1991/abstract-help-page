@@ -1,17 +1,18 @@
-import React from "react";
-import { IoCloseSharp } from "react-icons/io5";
+import React, { useState } from "react";
+import { FaXmark } from "react-icons/fa6";
 import SearchBar from "./SearchBar";
 
-const Search = () => {
+const Search = ({ toggleSearch }) => {
   return (
-    <div className=" block h-[88px] absolute left-0 top-0 right-0 z-10 p-[20px] bg-red-400 text-theme-black font-theme-lato border ">
-      <div className="mx-0 my-auto w-full">
-        <div className="flex items-center justify-between h-full">
-          <SearchBar />
-          <button>
-            <IoCloseSharp />
-          </button>
-        </div>
+    <div className="absolute top-0 left-0 w-full bg-theme-white h-[88px] z-10">
+      <div className="h-full flex justify-between items-center gap-5 p-[20px]">
+        <SearchBar />
+        <button
+          className="scale-150 cursor-pointer text-theme-black bg-transparent"
+          onClick={toggleSearch}
+        >
+          <FaXmark />
+        </button>
       </div>
     </div>
   );
