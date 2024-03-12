@@ -9,7 +9,7 @@ export default {
       colors: {
         'theme-accent': '#4C5FD5',
         'theme-neutral': '#dadbf1',
-        'theme-black': '#000000',
+        'theme-black': '#191a1b',
         'theme-white': '#ffffff',
       },
       fontFamily: {
