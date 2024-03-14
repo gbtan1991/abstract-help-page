@@ -14,7 +14,7 @@ const HamburgerButton = ({ismnavOpen, mnavOpen, callToActionLinks }) => {
     <div>
       {mnavOpen && <MobileNav  callToActionLinks={callToActionLinks}/>}
       <button onClick={toggleMnav}>
-      <Hamburger toggled={mnavOpen} toggle={ismnavOpen} size={20}/>
+      <Hamburger toggled={mnavOpen} toggle={ismnavOpen} size={23} />
       </button>
     </div>
   )

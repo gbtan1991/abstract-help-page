@@ -5,10 +5,10 @@ const Logo = ({AbstractLogo}) => {
   return (
     <div className="text-theme-white flex items-center">
       
-        <img src={AbstractLogo} alt="abstract-logo" className="h-8 lg:h-9" />
-        <h3 className="text-2xl lg:text-3xl font-medium font-theme-GT-American h-8 pb-[2px] pl-[5px] ml-[2px] border-l-2">
+        <img src={AbstractLogo} alt="abstract-logo" className="h-8 lg:h-9 " />
+        <a href="/" className="text-2xl/3  font-medium font-theme-GT-American h-8  pl-[5px] ml-[2px] pt-3 border-l-2 lg:ml-2 lg:mt-1 lg:pt-2 lg:pl-4 ">
           Help Center
-        </h3>
+        </a>
       
       
     </div>
