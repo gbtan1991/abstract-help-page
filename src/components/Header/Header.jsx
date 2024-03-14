@@ -26,9 +26,11 @@ const Header = () => {
 
 
   return (
-    <div className={`h-[88px] ${mnavOpen ? 'bg-theme-black' : 'bg-black'} px-[10px] flex items-center justify-between`}>
+    <div className={`h-[98px] ${mnavOpen ? 'bg-theme-black' : 'bg-black'} px-[10px] pl-3 lg:px-[30px] grid place-content-center lg:block `}>
+      <div className='flex items-center justify-around lg:justify-between lg:py-7 lg:px-16 gap-2'>
       <Logo AbstractLogo={AbstractLogo}/>
-      <div className='text-theme-white flex justify-evenly items-center gap-2'>
+     
+      <div className='text-theme-white flex items-center gap-2'>
       
       <div className='lg:hidden flex flex-row items-center'>
       <MenuSearch />
@@ -41,7 +43,7 @@ const Header = () => {
 
       
 
-
+      </div>
       </div>
     </div>
   )

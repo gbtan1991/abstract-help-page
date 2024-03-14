@@ -13,7 +13,8 @@ export default {
         'theme-white': '#ffffff',
       },
       fontFamily: {
-        'theme-lato': 'Lato, sans-serif'
+        'theme-lato': 'Lato, sans-serif',
+        'theme-GT-American' : 'GT-American-Standard, san-serif'
       }
     },
   },
